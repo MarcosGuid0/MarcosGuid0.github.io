@@ -1,0 +1,103 @@
+.Fondo{
+    background-color: rgb(225, 225, 225);
+}
+
+.Hoja {
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-justify: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    box-shadow: 5px 5px 5px grey;
+    }
+
+.Salto{
+padding-top: 75px;
+}
+
+.Unisierra {
+float: right;
+height: 75px;
+}
+
+.Titulos {
+text-align: center;
+}
+
+.Arial{
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+}
+
+.Lista {
+padding-left: 5px;
+}
+
+.Central {
+text-align: center;
+}
+
+th {
+background-color: yellow;
+border: rgb(0, 0, 0) 1px solid;
+}
+
+td {
+border: rgb(255, 135, 29) 1px solid;
+}
+
+.Colapsar{
+border-collapse: collapse;
+}
+
+table tr:nth-child(even){
+background-color: rgb(255, 231, 205);
+}
+
+table tr:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+    }
+
+.Saltito{
+    padding-top: 50px;
+    }
+    
+.Rojo {
+color: red;
+}
+
+.noSalto{
+margin:0 ;
+}
+
+.folio {
+padding-left: 25px;
+}
+
+.negrita{
+color: black;
+}
+
+.Verde {
+color: rgb(17, 190, 80);
+}
+
+.pagina{
+    color: yellow;
+    background-color: red;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 5px;
+    }
+    
+.ultimoSalto {
+    padding-top: 15px;
+}
+    
+.ultimoSalto {
+    padding-bottom: 100px;
+}
