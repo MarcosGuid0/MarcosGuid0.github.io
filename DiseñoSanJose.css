@@ -1,0 +1,81 @@
+.Fondo {
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+background-color: lightgrey;
+}
+
+.Hoja{
+    background-color: white;
+    width: 8.6in;
+    height: 11in;
+    text-justify: auto;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    background-image: url("fondoSanJose.png");
+    background-size: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    }
+
+.EncabezadoClase {
+width: 8.6in;
+}
+
+.Impresion {
+float: right;
+border: black 1px solid;
+border-radius: 10px;
+margin-right: 25px;
+padding-left: 50px;
+padding-right: 50px;
+margin-bottom: 25px;
+}
+
+.Analisis {
+background-color: rgb(150, 150, 150);
+border-radius: 5px;
+padding: 5px;
+margin-top: 40px;
+margin-bottom: 10px;
+}
+
+.Derecha{
+float: right;
+}
+
+.Redondeo{
+margin: 10px;
+}
+
+table{
+padding-left: 40px;
+}
+
+.dato,.cabeza {
+    padding-left: 6px ;
+    padding-right: 6px ;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+.interlineado {
+padding-top: 50px;
+}
+
+.Firma {
+float: right;
+}
+
+.pie {
+    width: 8.6in;
+}
+
+#firmita{
+margin-right: 100px;
+width: 150px;
+height: 150px;
+}
+
+#dos {
+padding-left: 200px;
+}
