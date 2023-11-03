@@ -51,13 +51,6 @@ table{
 padding-left: 40px;
 }
 
-.dato,.cabeza {
-    padding-left: 6px ;
-    padding-right: 6px ;
-    border: black 1px solid;
-    border-radius: 5px;
-}
-
 .interlineado {
 padding-top: 50px;
 }
@@ -78,4 +71,11 @@ height: 150px;
 
 #dos {
 padding-left: 200px;
+}
+
+#circulo td th {
+    padding-left: 6px ;
+    padding-right: 6px ;
+    border: black 1px solid;
+    border-radius: 5px;
 }
