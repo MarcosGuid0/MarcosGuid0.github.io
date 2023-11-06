@@ -73,7 +73,7 @@ height: 150px;
 padding-left: 200px;
 }
 
-#circulo td th {
+.circulo td, .circulo th {
     padding-left: 6px ;
     padding-right: 6px ;
     border: black 1px solid;
