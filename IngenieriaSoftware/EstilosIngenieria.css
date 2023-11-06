@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(234, 234, 234);
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hoja {
+    background-color: white;
+    padding: 25px;
+    border: 1px lightgrey solid;
+}
+
+.central {
+    text-align: center;
+}
+
+.TablaIngenieria table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 20px;
+}
+
+.TablaIngenieria th {
+    border: 1px white solid;
+    border-collapse: collapse;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 53, 53);
+}
+
+.TablaIngenieria td {
+    border: 1px lightgrey solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.Etapas {
+    width: 40%;
+    height: 140px;
+    margin: 25px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color: rgb(59, 250, 250);
+    float: left;
+    box-shadow: 10px 10px 20px;
+}
+
+.Metodologias {
+    width: 40%;
+    margin: 25px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color: rgb(121, 241, 201);
+    float: right;
+    box-shadow: 10px 10px 20px;
+}
+
+.TablaModelos {
+    clear: both;
+}
+
+.TablaModelos table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 20px;
+}
+
+.TablaModelos td,
+.TablaModelos th {
+width: 33%;
+    border: 1px lightgrey solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+td img {
+    width: 50%;
+}
