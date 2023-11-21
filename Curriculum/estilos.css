@@ -125,3 +125,7 @@ grid-area: l;
 section#tabla {
     grid-area: t;
     }
+    
+body{
+width: 100%;
+}
