@@ -1,0 +1,14 @@
+body{
+background-color: rgb(162, 107, 29);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.hoja {
+background-color: rgb(224, 205, 218);
+width: 100%;
+}
+
+.titulo{
+    padding-left: 50px;
+    color:  rgb(224, 205, 218);
+}

@@ -1,11 +1,7 @@
 .bordes {
     border-radius: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
     text-justify: auto;
     border: black 2px solid;
-    padding-left: 50px;
-    padding-right: 50px;
     padding-top: 20px;
     box-shadow: 10px 10px 10px grey;
     }
@@ -14,8 +10,6 @@
     background-color: rgb(237, 211, 172);
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-right: 25px;
-    padding-left: 25px;
     border: black 2px solid;
     }
     
@@ -31,7 +25,6 @@
     background-color: rgb(214, 228, 241);
     padding-top: 35px;
     padding-bottom: 35px;
-    padding-left: 150px;
     border: black 2px solid;
     display: flex;
     }
@@ -66,14 +59,9 @@
     text-align: center;
     }
     
-.frame {
-margin-left: 200px;
-}
-    
     
 img {
-    height: 150px;
-    width: 150px;
+    width: 25%;
     border-radius: 50%;
     border: black 5px solid;
     }
@@ -96,4 +84,44 @@ table, td, th{
 
 th {
     background-color: rgb(236, 146, 227);
+    }
+    
+main {
+display: grid;
+grid-template-areas: 
+"h h h"
+". f ."
+"i t l";
+}
+
+@media screen and (max-width: 480px) {
+    main{
+        display: grid;
+        grid-template-areas: 
+        "h"
+        "f"
+        "i"
+        "t"
+        "l";
+    }
+}
+
+header {
+grid-area: h;
+}
+
+section#foto {
+grid-area: f;
+}
+
+section#info{
+grid-area: i;
+}
+
+section#lista {
+grid-area: l;
+}
+
+section#tabla {
+    grid-area: t;
     }
